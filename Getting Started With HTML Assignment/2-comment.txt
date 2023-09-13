@@ -1,0 +1,17 @@
+Comments in HTML serve as a way to include non-rendered, human-readable notes within your HTML code.
+They are used to provide explanations, descriptions, or reminders for yourself or other developers who may be working on or reading your HTML code.
+Comments are ignored by web browsers and do not affect the appearance or functionality of a web page. 
+They are purely for documentation and communication purposes.
+
+
+Single-line comment
+
+<!-- This is a single-line comment -->
+
+multi-line comment
+
+<!--
+This is a
+multi-line
+comment
+-->

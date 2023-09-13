@@ -1,0 +1,1 @@
+<!DOCTYPE>: This is the declaration itself. It tells the browser that what follows is the document type declaration.

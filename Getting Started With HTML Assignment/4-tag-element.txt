@@ -1,0 +1,18 @@
+
+In HTML, tags and elements are fundamental building blocks used to structure and define the content of a web page
+
+HTML Tag:
+
+An HTML tag is a set of characters enclosed in angle brackets (< >).
+Some tags are self-closing, meaning they don't have a separate closing tag. They end with a forward slash (/) just before the closing angle bracket.
+
+Example: 
+<head>, <title>, <body>, <a>, <p>
+
+HTML Element:
+
+An HTML element consists of an opening tag, content, and a closing tag.
+
+Example:
+<p>This is a paragraph element</p>
+
