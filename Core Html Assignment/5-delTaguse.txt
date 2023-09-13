@@ -1,0 +1,36 @@
+Create a description list of full stack web development tech stack, using the <dl> tag. Each 
+ term should be a tech stack'name and each description should be a brief explanationm of what the tech stack is used for
+
+
+
+ <dl>
+  <dt>MEAN Stack</dt>
+  <dd>
+    The MEAN Stack consists of MongoDB (for database), Express.js (for server-side framework), Angular (for front-end framework), and Node.js (for server-side runtime). It's used for building dynamic, data-driven web applications.
+  </dd>
+
+  <dt>MERN Stack</dt>
+  <dd>
+    The MERN Stack includes MongoDB (for database), Express.js (for server-side framework), React (for front-end library), and Node.js (for server-side runtime). It's used for building modern, scalable web applications with a focus on user interfaces.
+  </dd>
+
+  <dt>LAMP Stack</dt>
+  <dd>
+    The LAMP Stack comprises Linux (for the operating system), Apache (for the web server), MySQL (for the database), and PHP (or sometimes Python/Perl) for server-side scripting. It's commonly used for developing web applications and websites.
+  </dd>
+
+  <dt>Ruby on Rails</dt>
+  <dd>
+    Ruby on Rails, often referred to as Rails, is a web application framework that uses the Ruby programming language. It's known for its convention over configuration (CoC) and is used for rapidly developing database-driven web applications.
+  </dd>
+
+  <dt>Python Django</dt>
+  <dd>
+    Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It's used for building secure, scalable web applications and is known for its "batteries-included" approach.
+  </dd>
+
+  <dt>MEVN Stack</dt>
+  <dd>
+    The MEVN Stack consists of MongoDB (for database), Express.js (for server-side framework), Vue.js (for front-end framework), and Node.js (for server-side runtime). It's used for creating modern web applications with a focus on Vue.js for the front end.
+  </dd>
+</dl>
