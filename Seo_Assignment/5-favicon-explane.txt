@@ -1,0 +1,8 @@
+.Define Favicon and give an illustrative example.
+
+A favicon, short for "favorite icon," is a small, typically square image or icon associated with a website or web page. It is displayed in various places within web browsers, such as in the browser's address bar, tabs, bookmarks, and when a user adds the website to their home screen or bookmarks.
+
+The primary purpose of a favicon is to provide a visual representation of the website or web page, making it easier for users to identify and distinguish between different websites or tabs when they have multiple pages open in their browser.
+
+Illustrative Example:
+Suppose you have a website for an online bookstore, and you want to create a favicon to represent your site. You design a small book icon to use as your favicon. 
