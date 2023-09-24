@@ -1,0 +1,10 @@
+Liast any 3 way which help us in improving the accessibility of Html
+
+1. Semantic HTML Elements:
+Use semantic HTML elements to properly structure content. Elements like <header>, <nav>, <main>, <section>, <article>, and <footer> provide meaningful structure to web pages, making it easier for screen readers and assistive technologies to interpret and present content correctly.
+
+2. Alt Text for Images:
+Always include descriptive alternative text (alt text) for images using the alt attribute within <img> elements. Alt text provides a textual description of the image, which is essential for users with visual impairments who rely on screen readers. Ensure that the alt text conveys the purpose or content of the image accurately.
+
+3. Proper Form Labeling:
+When creating forms, use <label> elements associated with form controls (such as <input>, <textarea>, and <select>) to provide clear and meaningful labels. This helps users with disabilities, particularly those using screen readers, understand the purpose of form elements and improves the overall usability of forms.

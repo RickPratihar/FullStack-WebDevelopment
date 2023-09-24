@@ -1,0 +1,11 @@
+What are HTMl Entities ? list out 5 commonly used Html Entities
+
+1. < - Less Than Sign (&lt)
+
+2. > - Greater Than Sign (&gt)
+
+3. & - Ampersand (&amp)
+
+4. " - Double Quotation Mark (&quot)
+
+5. ' - Single Quotation Mark (&apos)
