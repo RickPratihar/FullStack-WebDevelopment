@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Sign Up </legend>
+            <label for="fristname">Frist name
+                <input type="text" name="fristname" id="fristname">
+            </label>
+            <br>
+            <label for="lastname">Last name
+                <input type="text" name="lastname" id="lastname">
+            </label>
+            <br>
+            <label for="useremail">Enter Your Email
+                <input type="email" name="useremail" id="useremail">
+            </label>
+            <br>
+            <label for="password">Enter password
+                <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    required>
+            </label>
+            <br>
+            <label for="confirmPassword">Confirm password
+                <input type="confirmPassword" name="confirmPassword" id="confirmPassword">
+            </label>
+            <br>
+            <label for="age">Enter age
+                <input type="number" name="age" id="age">
+            </label>
+            <br>
+            <label for="Gender">Gender
+                <select name="Gender" id="Gender">
+                    <option value="select">select</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+            </label>
+
+            <P> <input type="checkbox"> <a href="">agree our terms and conditions</a> </P>
+            <br>
+            <input type="submit" value="Sign Up">
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Sign in</legend>
+            <form>
+                <br>
+                <label for="useremail">Enter Your Email
+                    <input type="email" name="useremail" id="useremail">
+                </label>
+                <br>
+                <label for="password">Enter password
+                    <input type="password" name="password" id="password" required>
+                </label>
+                <br>
+                <input type="submit" value="Sign in">
+            </form>
+        </fieldset>
+    </form>
+</body>
+
+</html>
+
+
+
+
+
+
+    
