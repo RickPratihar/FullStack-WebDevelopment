@@ -4,76 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form validation</title>
 </head>
 
 <body>
-    <form action="">
-        <fieldset>
-            <legend>Sign Up </legend>
-            <label for="fristname">Frist name
-                <input type="text" name="fristname" id="fristname">
-            </label>
-            <br>
-            <label for="lastname">Last name
-                <input type="text" name="lastname" id="lastname">
-            </label>
+   <fieldset>
+    <legend>Register</legend>
+    <label for="firstName">First Name:
+        <input type="text" name="firstName" placeholder="rick" id="firstName" required minlength=3 max=20 />
+    </label>
+    <br>
+    <label for="lastName">Last Name:
+        <input type="text" name="lastName" placeholder="pratihar" id="lastName" required min=3 max=20 />
+    </label>
+    <br>
+    <label for="email">Email:
+        <input type="email" name="email" placeholder="abc@gmail.com" id="email" required />
+    </label>
+    <br>
+    <label for="password">Password:
+        <input type="password" name="password" placeholder="********" id="password" required min=8 />
+    </label>
+    <br>
+    <label for="confirmPassword">Confirm Password:
+        <input type="password" name="confirmPassword" placeholder="********" id="confirmPassword" required />
+    </label>
+    <br>
+    <label for="age">Age:
+        <input type="number" name="age" placeholder="38" id="age" required min=0 max=150 />
+    </label>
+    <br>
+    <label for="">Gender:
+        <input type="radio" id="male" value="male" name="gender" checked />
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female" name="gender" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" value="other" name="gender" />
+        <label for="other">Other</label>
+    </label>
+    <br>
+    <label for="terms">terms:
+        <input type="checkbox" id="terms" required /> I agree to terms and conditions
+    </label>
+    <br>
+    <button type="submit">Register</button>
+</fieldset>
+
+    <fieldset>
+        <legend>Sign in</legend>
+        <form>
             <br>
             <label for="useremail">Enter Your Email
-                <input type="email" name="useremail" id="useremail">
+                <input type="email" name="useremail" id="useremail"  placeholder="abc@gmail.com" >
             </label>
             <br>
             <label for="password">Enter password
-                <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
-                    required>
+                <input type="password" name="password" id="password" min=8 required>
             </label>
             <br>
-            <label for="confirmPassword">Confirm password
-                <input type="confirmPassword" name="confirmPassword" id="confirmPassword">
-            </label>
-            <br>
-            <label for="age">Enter age
-                <input type="number" name="age" id="age">
-            </label>
-            <br>
-            <label for="Gender">Gender
-                <select name="Gender" id="Gender">
-                    <option value="select">select</option>
-                    <option value="male">male</option>
-                    <option value="female">female</option>
-                </select>
-            </label>
-
-            <P> <input type="checkbox"> <a href="">agree our terms and conditions</a> </P>
-            <br>
-            <input type="submit" value="Sign Up">
-        </fieldset>
-
-
-        <fieldset>
-            <legend>Sign in</legend>
-            <form>
-                <br>
-                <label for="useremail">Enter Your Email
-                    <input type="email" name="useremail" id="useremail">
-                </label>
-                <br>
-                <label for="password">Enter password
-                    <input type="password" name="password" id="password" required>
-                </label>
-                <br>
-                <input type="submit" value="Sign in">
-            </form>
-        </fieldset>
+            <input type="submit" value="Sign in">
+        </form>
+    </fieldset>
     </form>
 </body>
 
 </html>
-
-
-
-
-
-
-    
