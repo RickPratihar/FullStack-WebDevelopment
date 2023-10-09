@@ -1,0 +1,32 @@
+/* Base paragraph styles */
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/*  Intro paragraph */
+.paragraph--intro {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Main content paragraph */
+.paragraph--main {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+/* Highlighted paragraph */
+.paragraph--highlighted {
+    background-color: yellow;
+    color: #333;
+}
+
+/* Quote paragraph */
+.paragraph--quote {
+    font-style: italic;
+    border-left: 2px solid #333;
+    padding-left: 10px;
+}

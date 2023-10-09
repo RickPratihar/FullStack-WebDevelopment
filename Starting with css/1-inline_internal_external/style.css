@@ -1,0 +1,21 @@
+/* External CSS for elements with class "box1" */
+
+.box1{
+    background-color: rgb(116, 112, 234);
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
+/* External CSS for elements with class "box3" */
+
+.box3 {
+    background-color: rgb(112, 234, 112);
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
+

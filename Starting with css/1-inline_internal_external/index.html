@@ -1,0 +1,53 @@
+<!-- Create a simple page with some div tags and show different ways to add CSS as well as what happens
+when you target the same elements with inline, internal, and external CSS. Also, utilize comments in the
+project where required -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Examples</title>
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for the div with the "box1"  */
+        .box1 {
+            background-color: lightblue;
+            width: 200px;
+            height: 100px;
+        }
+
+        .box2 {
+            background-color: rgb(244, 9, 9);
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS for the first div -->
+    <div class="box1" style="border: 2px solid black; background-color: aqua;">
+        <p>This div has inline CSS.</p>
+    </div>
+
+
+    <div class="box2">
+        <p>This div has internal CSS</p>
+    </div>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Another div with the same class selector in external CSS -->
+    <div class="box3">
+        <p>This div has external CSS.</p>
+    </div>
+
+
+
+    <!-- i create a div with id box1 and add some style property with inline, internal, and external CSS the major different
+    is inline css more priority then internal and external css and internal css more priority then external css . -->
+
+</body>
+
+</html>
