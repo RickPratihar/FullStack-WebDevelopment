@@ -1,0 +1,64 @@
+<!-- Create a simple webpage with a card similar to question number 2. The card must be semi-transparent as
+default and on hovering the card must be displayed clearly. Use CSS opacity to achieve this output. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semi-Transparent Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            cursor: pointer;
+            width: 400px;
+            height: 350px;
+            background-color: #7FFFD4;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: opacity 0.3s;
+        }
+
+        img{
+            width: 360px;
+            height: 200px;
+        }
+
+        .card:hover {
+            opacity: 0.5;
+        }
+
+        .card-content {
+            padding: 20px;
+            color: #fff;
+        }
+
+        .card-content p{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-content">
+            <img src="https://learn.pwskills.com/_next/image?url=https%3A%2F%2Fcdn.pwskills.com%2Fassets%2Fuploads%2Fthumbnails%2F64a514966977cc6e87e27504.png&w=1920&q=75"
+                alt="" />
+            <p>
+                <b>Course Name :</b> Pw skills web Development
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.container{
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(248, 204, 7);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    opacity: 0.9;
+}
+
+.container img{
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.container p{
+    font-weight: 300;
+}

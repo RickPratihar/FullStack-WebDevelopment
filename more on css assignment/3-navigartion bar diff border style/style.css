@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden; 
+}
+
+.navbar a {
+    float: left;
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 26px; 
+    text-decoration: none;
+    transition: border 0.3s; 
+}
+
+.navbar a:nth-child(1) {
+    border: 2px solid #ff6600; 
+}
+
+.navbar a:nth-child(2) {
+    border: 2px dotted #00cc66; 
+}
+
+.navbar a:nth-child(3) {
+    border: 2px dashed #ff3399;
+}
+
+.navbar a:nth-child(4) {
+    border: 2px double #3366cc; 
+}
+
+.navbar a:nth-child(5) {
+    border: 2px groove #ff9933;
+}
+
+.navbar a:hover {
+    border: 2px solid #fff; 
+}
