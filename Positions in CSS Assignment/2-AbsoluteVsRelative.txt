@@ -1,0 +1,24 @@
+Absolute :
+
+1. syntex {
+    poaition: Absolute
+}
+
+2. with relative positioning, an element can be move up down left, or right from its normal position
+
+3. it will not break the normal document flow to position the element on the page
+
+4. the element will leave the space at its original position & other content will not be adjusted to fit into any gap left by element
+
+
+Relative:
+
+1. syntex{
+    position: Relative
+}
+
+2. with Absolute position an element is positioned reletive to its nearest positioned ancestor
+
+3. it will break the normal document flow to position the element on the page
+
+4. the element will not leve any space in its original position
