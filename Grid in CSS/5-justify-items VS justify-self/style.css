@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+}
+
+.container div{
+    padding: 5px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+
+/* addimg justify-items: center; to .container in style.css to center all the items in the grid.  */
+
+.container {
+    justify-items: center;
+    }
