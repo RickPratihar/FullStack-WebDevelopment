@@ -1,0 +1,9 @@
+Describe the usage of the comma operator in JavaScript and provide an example.
+
+Solution :
+Comma operator allows us to evaluate multiple expressions in a single statement like declaring multiple
+variables in a single statement separating them with the comma operator.
+
+example: const a = 1, b = 2, c = 3;
+         console.log(a, b, c); // Output: 1 2 3
+// Here, we have declared three variables a, b, and c in a single statement using the comma operator.

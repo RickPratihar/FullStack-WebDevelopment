@@ -1,0 +1,20 @@
+3. Differentiate between unary, and binary operators in JavaScript. Give examples of each.
+
+Unary operators are operators that take only one operand. They perform an operation on a single element. Examples of unary operators in JavaScript include:
+
+Unary plus (+): Tries to convert the operand into a number.
+Unary negation (-): Also tries to convert the operand into a number and negates after.
+Logical not (!): Converts the operand to a boolean value and negates it.
+Increment (++): Adds one to its operand.
+Decrement (--): Subtracts one from its operand.
+typeof: Returns a string indicating the type of the unevaluated operand.
+
+
+Binary operators, on the other hand, are operators that take two operands. They perform an operation on two elements. Examples of binary operators in JavaScript include:
+
+Addition (+): Adds two numbers.
+Subtraction (-): Subtracts the second number from the first.
+Multiplication (*): Multiplies two numbers.
+Division (/): Divides the first number by the second.
+Modulus (%): Returns the remainder of the division of the first number by the second.
+Less than (<), greater than (>), less than or equal to (<=), greater than or equal to (>=), equal to (==), not equal to (!=), strictly equal to (===), and strictly not equal to (!==): These are comparison operators that compare two values and return a boolean result.

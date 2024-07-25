@@ -1,0 +1,10 @@
+Use a nested ternary operator to check that a number is positive, negative or zero. You have to print
+“positive” if the number is positive and similarly for negative and zero also.
+
+Solution :
+let num = 0;
+let result = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+console.log("The number is: ", result);
+// Output: The number is: Zero
+// Here, we have used a nested ternary operator to check whether the number is positive, negative or zero.
+// If the number is greater than 0, then it is positive, if it is less than 0, then it is negative, and if it is 0, then it is zero.

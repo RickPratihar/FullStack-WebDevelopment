@@ -1,0 +1,54 @@
+2.Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+In JavaScript, operators can be categorized based on their functionality into the following categories:
+
+*Arithmetic Operators:
+Examples:
+Addition: let sum = 5 + 3;
+Subtraction: let difference = 10 - 2;
+Multiplication: let product = 4 * 6;
+Division: let quotient = 20 / 5;
+Modulus: let remainder = 15 % 4;
+
+*Assignment Operators:
+Examples:
+Simple Assignment: let x = 10;
+Addition Assignment: x += 5;
+Subtraction Assignment: x -= 3;
+Multiplication Assignment: x *= 2;
+Division Assignment: x /= 4;
+
+*Comparison Operators:
+Examples:
+Equal to: let isEqual = (5 == 5);
+Not equal to: let isNotEqual = (10 != 5);
+Greater than: let isGreater = (8 > 3);
+Less than: let isLess = (2 < 7);
+Greater than or equal to: let isGreaterOrEqual = (6 >= 6);
+Less than or equal to: let isLessOrEqual = (4 <= 9);
+
+*Logical Operators:
+Examples:
+Logical AND: let result = (true && false);
+Logical OR: let result = (true || false);
+Logical NOT: let result = !true;
+
+*Bitwise Operators:
+Examples:
+Bitwise AND: let result = (5 & 3);
+Bitwise OR: let result = (5 | 3);
+Bitwise XOR: let result = (5 ^ 3);
+Bitwise NOT: let result = ~5;
+Left shift: let result = (5 << 2);
+Right shift: let result = (5 >> 2);
+
+*Unary Operators:
+Examples:
+Increment: let x = 5; x++;
+Decrement: let y = 10; y--;
+Unary plus: let num = +5;
+Unary minus: let num = -10;
+
+*Ternary Operator:
+Example: let result = (condition) ? value1 : value2;

@@ -1,0 +1,83 @@
+Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and
+examples.
+
+Loops are used to repeat the block of code multiple times. It is used to execute the same code multiple times until the condition is true. Loops are useful when we want to perform the same task repeatedly based on the condition.
+
+There are mainly four types of loops in JavaScript:
+1. For loop
+2. While loop
+3. Do while loop
+4. For in loop
+5. For of loop
+
+Syntax:
+1. For loop:
+
+for (initialization; condition; increment/decrement) {
+    // code block
+}
+
+Example:
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+// Output: 0, 1, 2, 3, 4
+
+2. While loop:
+
+while (condition) {
+    // code block
+}
+
+Example:
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}
+// Output: 0, 1, 2, 3, 4
+
+3. Do while loop:
+
+do {
+    // code block
+} while (condition);
+
+Example:
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
+// Output: 0, 1, 2, 3, 4
+
+4. For in loop:
+
+for (variable in object) {
+    // code block
+}
+
+Example:
+const person = { name : "John", age : 30 };
+
+for (let key in person) {
+    console.log(key, person[key]);
+}
+// Output: name John, age 30
+
+5. For of loop:
+
+for (variable of iterable) {
+    // code block
+}
+
+Example:
+const arr = [1, 2, 3, 4, 5];
+
+for (let num of arr) {
+    console.log(num);
+}
+// Output: 1, 2, 3, 4, 5
+
+In the above examples, we have used different types of loops to iterate over an array, object, or perform a task multiple times based on the condition. Loops are essential in programming to reduce code repetition and make the code more efficient.
+
